@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Drawingwithmarkers';
+	src: url('./Drawingwithmarkers.eot');
+	src: local('Drawingwithmarkers'), url('./Drawingwithmarkers.woff') format('woff'), url('./Drawingwithmarkers.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_45615">Text with this font applied</p> */
+.fontsforweb_fontid_45615 {
+	font-family: 'Drawingwithmarkers' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

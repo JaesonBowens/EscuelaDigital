@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'mareensprint';
+	src: url('./mareensprint.eot');
+	src: local('mareensprint'), url('./mareensprint.woff') format('woff'), url('./mareensprint.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_481">Text with this font applied</p> */
+.fontsforweb_fontid_481 {
+	font-family: 'mareensprint' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

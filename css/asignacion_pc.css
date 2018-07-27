@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'wonder-comic';
+	src: url('../fonts/SF Wonder Comic/SF Wonder Comic.ttf');
+	format('truetype');
+}
+
+html{
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+}
+
+body{
+	background: URL(../imagen/fondos/aula.png) no-repeat;
+	background-size:100% 100%;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+}
+
+
+/*#cuerpo-asig-pc*/ #contenedor-form-asig-pc{
+	background-color: #EFF8FB;
+	width: 910px;
+	height: 400px;
+	padding: 0% 0% 3% 0%;
+	opacity: 0.9;
+	border-radius: 2%;
+	-moz-border-radius: 2%;
+	-webkit-border-radius: 2%;
+	box-shadow: 1% 1% 2% gray;
+	-moz-box-shadow: 1% 1% 2% gray;
+	-webkit-box-shadow: 1% 1% 2% gray;
+	position:absolute;
+     	top:50%;
+    	left:50%;
+     	margin:-20% 0 0 -455px;
+}
+
+/*#cuerpo-asig-pc*/ #contenedor-form-asig-pc #cabecera-label{
+	margin-top: -5%;
+	height: 50px;
+	background-color: #FAAC58;
+	text-align:center;
+	border-bottom: solid 1px gray;
+	border-radius: 5px 5px 0 0;
+}
+
+/*#cuerpo-asig-pc*/ #contenedor-form-asig-pc #cabecera-label h5{
+	font-family:"wonder-comic", cursive;
+	font-size: 17px;
+	color:#424242;
+	padding: 2%;
+}
+
+/*#cuerpo-asig-pc*/ #contenedor-form-asig-pc #cabecera-label .cabecera-der{
+	float: left;
+}
+
+/*#cuerpo-asig-pc*/ #contenedor-form-asig-pc #cabecera-label .cabecera-der .boton-cerrar{
+	background-color: #FA5858;
+	border: solid 1px #FA5858;
+	color: #FAAC58;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 60%;
+	margin-left: 30%;
+	padding: 0%;
+	cursor: pointer;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	transition: background 1s, color 1s, border 1s;
+}
+
+/*#cuerpo-asig-pc*/ #contenedor-form-asig-pc #cabecera-label .cabecera-der .boton-cerrar:hover{
+	background-color: #F78181; 
+	color: black;
+	border: solid 1px #5882FA;
+}
+
+/*#cuerpo-asig-pc*/ #contenedor-form-asig-pc .asig-pc-dato-docente{
+	margin-top: 4%;
+	text-align: center;
+	width: 100%;
+}
+
+/*#cuerpo-asig-pc*/ #contenedor-form-asig-pc .asig-pc-dato-docente label{
+	text-align: right;
+	padding-right: 3px;
+	padding-left: 15px;
+	clear:both;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+/*#cuerpo-asig-pc #contenedor-form-asig-pc*/ .tabla-maestro{
+	background-color: #F2F5A9;
+	width: 90%;
+	height: auto;
+	margin-top:2%;
+	margin-left: 5%;
+	display: block;
+	border: 1px solid gray;
+}
+
+/*#cuerpo-asig-pc #contenedor-form-asig-pc*/ .tabla-maestro .cabecera-tabla-maestro{
+	background-color: #FAAC58;
+}
+
+/*#cuerpo-asig-pc #contenedor-form-asig-pc*/ .tabla-maestro .cabecera-tabla-maestro th{
+	color:#424242;
+	padding: 2%;
+	font-size: 14px;
+	text-align: left;
+}
+
+/*#cuerpo-asig-pc #contenedor-form-asig-pc*/ .tabla-maestro .cuerpo-tabla-maestro{
+	width: 100%;
+	height: 240px;
+	display: block;
+	overflow: auto;
+  	overflow-x: hidden;
+}
+
+/*#cuerpo-asig-pc #contenedor-form-asig-pc*/ .tabla-maestro .cuerpo-tabla-maestro tr{
+	cursor: pointer;
+	background-color: #F2F5A9;
+}
+
+/*#cuerpo-asig-pc #contenedor-form-asig-pc*/ .tabla-maestro .cuerpo-tabla-maestro tr:nth-child(even) { 
+	background-color: #FFFFFF; 
+}
+
+/*#cuerpo-asig-pc #contenedor-form-asig-pc*/ .tabla-maestro .cuerpo-tabla-maestro tr:hover{
+	background-color: #A9D0F5;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+/*#cuerpo-asig-pc #contenedor-form-asig-pc*/ .tabla-maestro .cuerpo-tabla-maestro td {
+	font-size: 13px;
+	color: #8A2908;
+}
+
+/*****************************************************************************/
+
+/*#cuerpo-asig-pc*/ #contenedor-form-asig-pc .tabla-asig-contenido{
+	background-color: #F2F5A9;
+	width: 80%;
+	height: auto;
+	margin-top:2%;
+	margin-right: 5%;
+	display: block;
+	border: 1px solid gray;
+}
+
+/*#cuerpo-asig-pc*/ #contenedor-form-asig-pc .tabla-asig-contenido .cabecera-tabla-asig-contenido{
+	background-color: #FAAC58;
+}
+
+/*#cuerpo-asig-pc*/ #contenedor-form-asig-pc .tabla-asig-contenido .cabecera-tabla-asig-contenido th{
+	color:#424242;
+	padding: 2%;
+	font-size: 14px;
+	text-align: left;
+}
+
+/*#cuerpo-asig-pc*/ #contenedor-form-asig-pc .tabla-asig-contenido .asig-contenido{
+	width: 100%;
+	height: 240px;
+	display: block;
+	overflow: auto;
+  	overflow-x: hidden;
+}
+
+/*#cuerpo-asig-pc*/ #contenedor-form-asig-pc .tabla-asig-contenido .asig-contenido tr{
+	cursor: pointer;
+	background-color: #F2F5A9;
+}
+
+/*#cuerpo-asig-pc*/ #contenedor-form-asig-pc .tabla-asig-contenido .asig-contenido tr:nth-child(even) { 
+	background-color: #FFFFFF; 
+}
+
+/*#cuerpo-asig-pc*/ #contenedor-form-asig-pc .tabla-asig-contenido .asig-contenido tr:hover{
+	background-color: #A9D0F5;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+/*#cuerpo-asig-pc*/ #contenedor-form-asig-pc .tabla-asig-contenido .asig-contenido td {
+	font-size: 13px;
+	color: #8A2908;
+}
+
+.asig-pc-izq{
+	margin-top: 1%;
+	margin-left: 6%;
+	width: 450px;
+	height: 400px;
+	float: left;
+}
+
+.asig-contenido-der{
+	margin-top: 1%;
+	margin-left: 58%;
+	margin-right: 9%;
+	width: 400px;
+	height: 400px;
+	position: absolute;
+}
+
+#seleccion-todo{
+	cursor: pointer;
+}
+
+input[type="text"]{
+	height: 25px;
+	border: solid 1px gray;
+	text-align: center;
+	border-radius: 5px;
+}
+
+input[type=text]:disabled{
+	background: #F2F5A9;
+	border: solid 1px gray;
+}
+
+select{
+	width: 175px;
+	height: 24px;
+	border: solid 1px gray;
+	text-align: center;
+	border-radius: 5px;
+}
+
+select:disabled{
+	background: #F2F5A9;
+	border: solid 1px gray;
+}
+
+

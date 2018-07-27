@@ -1,0 +1,891 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	background-color: #c2f2f9;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+.cuerpo-actividad{
+	background-image: url(../imagen/fondos/fondopared.png) ;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+}
+
+/*******************************************/
+/*Cabecera*/
+/*******************************************/
+.cuerpo-actividad .cabecera{
+	background-image: url(../imagen/fondos/fondo_papel_marron.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 6%;
+	padding-top: 0.5%;
+	border-bottom: 2px groove #fff;
+	-webkit-box-shadow: -1px 3px 11px -1px rgba(0,0,0,0.5);
+	-moz-box-shadow: -1px 3px 11px -1px rgba(0,0,0,0.5);
+	box-shadow: -1px 3px 11px -1px rgba(0,0,0,0.5);
+}
+
+.cabecera #cabecera-izq{
+	float: left;
+	width: 80%;
+	height: 100%;
+	margin-top: 0.15%;
+}
+
+#cabecera-izq span{
+	margin-left: 5%;
+	top: 5%;
+	letter-spacing: 5px;
+	font-family:"home_school", cursive;
+	font-size: 1.3em;
+	color:#424242;
+	padding:5px;
+}
+
+#cabecera-izq #titulo-13{
+	margin-left: 5%;
+	top: 5%;
+	letter-spacing: 5px;
+	font-family:"home_school", cursive;
+	font-size: 0.9em;
+	color:#424242;
+	padding:5px;
+}
+
+.cabecera #cabecera-der{
+	float: right;
+	width: 20%;
+	height: 100%;
+}
+
+
+
+.img-cerrar{
+	width: 25%;
+	height: 100%;
+	float: right;
+}
+/*******************************************/
+/*Cabecera*/
+/*******************************************/
+
+/*******************************************/
+/*Menu*/
+/*******************************************/
+
+
+/*******************************************/
+/*Informacion*/
+/*******************************************/
+.tv-plasma{
+	margin-top: 2%;
+	margin-left: 1%;
+	border: 5px solid #848484;
+	background:#848484;
+	background-size: 100% 100%;
+	width: 28%;
+	height: 38%;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 5px 5px 5px #585858;
+	position: absolute;
+}
+
+.alta-voz{
+	top: 93%;
+	margin-left: 24%;
+	background-image: url(../imagen/speaker.png) ;
+	background-size: 100% 100%;
+	border: inset 2px #848484;
+	width: 50%;
+	height: 5%;
+	position: absolute;
+}
+
+.tv-boton{
+	top: 93%;
+	margin-left: 4%;
+	background-image: url(../imagen/icon/009.png) ;
+	background-size: 100% 100%;
+	width: 8%;
+	height: 8%;
+	position: absolute;
+}
+
+/*******************************************/
+/*Menu*/
+/*******************************************/
+.tv-plasma .menu-actividad{
+	background-color: #BDBDBD;
+	margin-top: 2.35%;
+	margin-left: 5%;
+	width: 16%;
+	height: 85%;
+	border: inset 3px #848484;
+	border-right: none;
+	border-radius: 5px 0px 0px 0px;
+	position: absolute;
+}
+
+.tv-plasma .menu-actividad #menu{	
+	width: 100%;
+	height: auto;
+	padding: 2%;
+}
+
+#menu #informacion-texto, #menu #informacion-video, #menu #informacion-lenguaje-signo {
+	list-style: none;
+	width: 80%;
+	height: 30%;
+	top: 5%;
+	bottom: 25%;
+	margin-left: 3%;
+	position: absolute;
+	transition: box-shadow 1s;
+	-moz-transition: box-shadow 1s;
+	-webkit-transition: box-shadow 1s;
+	cursor: pointer;
+}
+
+#menu #informacion-video{
+	top: 35%;
+}
+
+#menu #informacion-lenguaje-signo {
+	top: 65%;
+}
+
+#menu li:hover{
+	box-shadow: inset 0px 0px 25px #4f57fb;
+	height: 30%;
+}
+
+#menu li img{
+	width: 65%;
+	height: 70%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 15%;
+	position: absolute;
+}
+
+/*************************/
+
+.tv-plasma .tutorial{
+	margin-top: 0.2%;
+	width: 76%;
+	height: 85%;
+	float: left;
+	margin-left: 21%;
+	position: absolute;
+}
+
+.tutorial .guia{
+	margin-top: 3%;
+	width: 96%;
+	height: 100%;
+	border: inset 3px #848484;
+	border-left:none;
+	border-radius: 0px 5px 5px 0px;
+	float: left;
+	background: #F2F5A9;
+	position: absolute;
+}
+
+.guia p{
+	font-size: 1.4em;
+	text-align: justify;
+	padding: 5%;
+}
+
+
+.tutorial video{
+	margin-top: 3%;
+	width: 96%;
+	height: 100%;
+	float: left;
+	position: absolute;
+	background: #F2F5A9;
+	border: inset 3px #848484;
+	border-left:none;
+	border-radius: 0px 5px 5px 0px;
+}
+
+.tutorial .lenguaje_sena_img{
+	margin-top: 3%;
+	width: 96%;
+	height: 100%;
+	border: inset 3px #848484;
+	border-left:none;
+	border-radius: 0px 5px 5px 0px;
+	float: left;
+	background: #F2F5A9;
+	position: absolute;
+}
+
+/*******************************************/
+/*Informacion*/
+/*******************************************/
+
+
+/*******************************************/
+/*Actividad*/
+/*******************************************/
+.cuerpo-actividad .img-actividad{
+	width: 65%;
+	height: 65%;
+	margin-top: 1%;
+	margin-left: 31%;
+	position: absolute;
+	background-image: url(../imagen/pizarron_actividad.png);
+	background-size: 100% 100%;
+}
+
+.cuerpo-actividad .contenedor-seleccion{
+	width: 80%;
+	height: 70%;	
+	top: 10%;
+	left: 10%;
+	position: absolute;
+}
+
+.cuerpo-actividad .contenedor-seleccion-uno{
+	width: 90%;
+	height: 80%;	
+	top: 5%;
+	left: 5%;
+	position: absolute;
+}
+
+.cuerpo-actividad .contenedor-ordenar{
+	width: 90%;
+	height: 17%;	
+	top: 74%;
+	left: 5%;
+	position: absolute;
+}
+
+.cuerpo-actividad .contenedor-sopa{
+	position: absolute;
+	width: 50%;
+	height: 70%;	
+	top: 12%;
+	left: 25%;
+}
+
+.img-actividad .alerta{
+	background-color: #fff;
+	opacity: 0.9;
+	width: 50%;
+	height: 50%;
+	z-index: 1;
+	position: absolute;
+	margin-left: 25%;
+	top: 30%;
+	border-radius: 10px;
+	box-shadow: 5px 5px 20px black;
+	display: none;
+}
+
+.img-mensaje{
+	width: 95%;
+	height: 95%;
+	border-radius: 15px;
+}
+
+.video-mensaje{
+	width: 95%;
+	height: 95%;
+	border-radius: 15px;
+}
+
+.img-actividad #img-cargar{
+	cursor: pointer;
+	width: 45%;
+	height: 60%;
+	top: 10%;
+	left: 27.5%;
+	border-radius: 15px;
+	border-bottom: 1px solid white;
+	position: absolute;
+}
+
+.img-actividad #img-ordenar-palabra{
+	cursor: pointer;
+	width: 45%;
+	height: 55%;
+	top: 10%;
+	left: 27.5%;
+	border-radius: 15px;
+	border-bottom: 1px solid white;
+	position: absolute;
+}
+
+/*Actividad 11*/
+.img-actividad #img-cargar1, .img-actividad #img-cargar2{
+	cursor: pointer;
+	width: 35%;
+	height: 55%;
+	top: 20%;
+	left: 9%;
+	position: absolute;
+	border-radius: 15px;
+	border-bottom: 1px solid white;
+}
+
+.img-actividad #img-cargar2{
+	left: 58%;
+}
+
+.img-actividad .signo-suma{
+	font-size: 5em;
+	color: #000000;
+	left: 46.5%;
+	top: 25%;
+	position: absolute; 	
+}
+
+.img-actividad .signo-resta{
+	font-size: 8em;
+	color: #000000;
+	left: 48.5%;
+	top: 25%;
+	position: absolute; 	
+}
+/*Actividad 11*/
+
+.cuerpo-actividad .preg-actividad-1,
+.cuerpo-actividad .preg-actividad-4,
+.cuerpo-actividad .preg-actividad-10{
+	width: 50%;
+	height: 15%;
+	position: absolute;
+	left: 38%;
+	top: 50%;
+	text-align: center;
+	font-size: 2.5em;
+	letter-spacing: 20px;
+	color: #000000;
+}
+
+.cuerpo-actividad .preg-actividad-6{
+	width: 5%;
+	height: 10%;
+	position: absolute;
+	left: 87%;
+	top: 59%;
+	text-align: center;
+	font-size: 2.5em;
+	letter-spacing: 20px;
+	color: #000000;
+}
+
+.cuerpo-actividad .preg-actividad-4,
+.cuerpo-actividad .preg-actividad-10{
+	top: 58%;
+}
+
+.cuerpo-actividad .resp-actividad-1,
+.cuerpo-actividad .resp-actividad-4,
+.cuerpo-actividad .resp-actividad-7,
+.cuerpo-actividad .resp-actividad-8,
+.cuerpo-actividad .resp-actividad-10,
+.cuerpo-actividad .resp-actividad-asociar-img-pal{
+	width: 50%;
+	height: 10%;
+	background-image: url(../imagen/madera3.jpeg);
+	background-size:100% 100%;
+	background-position: center;
+	position: absolute;
+	left: 38%;
+	top: 78%;
+	text-align: center;
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px black;
+	font-size: 2.5em;
+	letter-spacing: 20px;
+}
+
+.cuerpo-actividad .resp-actividad-7{
+	width: 50%;
+	height: 10%;
+	background-image: url(../imagen/madera3.jpeg);
+	background-size:100% 100%;
+	background-position: center;
+	position: absolute;
+	left: 38%;
+	top: 76%;
+	padding-top: 1%;
+	text-align: center;
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px black;
+	font-size: 2.5em;
+	letter-spacing: 20px;
+}
+
+.cuerpo-actividad .resp-actividad-8 {
+	margin-top:-1%;
+	height: 8.5%;
+	padding-top: 1.5%;
+	font-size: 2em;
+	letter-spacing: 10px;
+	color: #000000;
+}
+
+.resp-actividad-1 button{
+	width: 13%;
+	height: 80%;
+	margin-top: 1%;
+	background-image: url(../imagen/fondos/fondo_madera.jpg);
+	background-size:100% 100%;
+	margin-left: 5%;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 1em;	
+	box-shadow: 1px 1px 1px black;
+	cursor: pointer;
+	transition: background-color 1s, border 1s;
+	-moz-transition: background-color 1s, border 1s;
+	-webkit-transition: background-color 1s, border 1s;
+	color: #000000;
+}
+
+.resp-actividad-1 button:hover{
+	background-image: url(../imagen/fondos/fondo_papel_azul.jpg);
+}
+
+.resp-actividad-1 .boton-vocal{
+	width: 13%;
+	height: 80%;
+	margin-top: 1%;
+	background-color: #BDBDBD;
+	border: 1px solid #BDBDBD;
+	margin-left: 0%;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 1em;	
+	box-shadow: 1px 1px 1px black;
+	cursor: pointer;
+	transition: background-color 1s, border 1s;
+	-moz-transition: background-color 1s, border 1s;
+	-webkit-transition: background-color 1s, border 1s;
+}
+
+.resp-actividad-1 .boton-vocal:hover{
+	background-color: #FFBF00;
+	border: 1px solid #BDBDBD;
+}
+
+.resp-actividad-4 #campoRespuesta, .resp-actividad-4 #campoRespuesta-resultado{
+	width: 60%;
+	height: 60%;
+	margin-top: 1.5%;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.cuerpo-actividad .resp-actividad-10 #signo-igual {
+	margin: 0%;
+	padding: 0%;
+	color: #000000;
+}
+
+.resp-actividad-10 #campoRespuesta-resultado{
+	width: 20%;
+	height: 60%;
+	margin-top: 1.5%;
+	margin-left: -4.5%;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.preg-actividad-4 #campoRespuesta-resultado{
+	width: 30%;
+}
+
+.resp-actividad-10 #campoRespuesta-letra{
+	width: 60%;
+	height: 60%;
+	margin-top: 1.5%;
+	font-weight: bold;
+	font-size: 1em;
+	width: 10%;
+}
+
+.resp-actividad-10 #resto-palabra{
+	width: auto;
+	height: 60%;
+	display: inline-table;
+	margin-top: -1.5%;
+	margin-left: -4%;
+	text-align: left;
+	letter-spacing: 0px;
+	padding-right: 1%;
+}
+
+/*Actividad 6*/
+.contenedor-ordenar #lista-ordenable{
+	border-radius: 5px;
+	width: 85%;
+	height: 80%;
+	margin-top: -3%;
+	padding-top: 2%;
+	list-style-type: none; 
+	text-align: center;
+}
+
+#lista-ordenable li{
+	padding: 0% 1%;
+	display: inline;
+	margin-left: 3.5%;
+	color: black;
+	font-size: 2.5em;
+	border-radius: 5px;
+	background-color: #81c8ce;
+}
+/*Actividad 6*/
+
+/*Actividad 7*/
+.resp-actividad-7 #hora{
+	width: 15%;
+	height: 60%;
+	top: 2%;
+	left: 0%; 
+	font-weight: bold;
+	font-size: 1em;
+}
+
+/*Actividad 7*/
+.resp-actividad-7 #minuto{
+	width: 15%;
+	height: 60%;
+	top: 2%;
+	margin-left: -3%; 
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.resp-actividad-7 #dos-puntos{
+	margin: 0%;
+	padding: 0%;
+}
+/*Actividad 7*/
+
+/*Actividad 8*/
+.contenedor-sopa .sopa{
+	width: 14%;
+	height: 18%;
+	margin: 1% 1%;
+	background-color: #81c8ce;
+	border: 1px solid #81c8ce;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 1.6em;
+	text-align: center;
+	display: inline-block;
+	transition: background-color 1s, border 1s;
+	-moz-transition: background-color 1s, border 1s;
+	-webkit-transition: background-color 1s, border 1s;
+	cursor: pointer;
+}
+
+.contenedor-sopa .sopa:hover{
+	background-color: #83cc85;
+	border: 1px solid #83cc85;
+}
+/*Actividad 8*/
+
+/*Actividad 13 y 14*/
+.contenedor-seleccion .seleccion{
+	width: 28%;
+	height: 45%;
+	margin: 1% 1%;
+	padding: 1%;
+	background: #D8D8D8;
+	border: 1px solid #BDBDBD;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 100%;
+	text-align: center;
+	display: inline-block;
+	transition: background-color 1s, border 1s;
+	-moz-transition: background-color 1s, border 1s;
+	-webkit-transition: background-color 1s, border 1s;
+	cursor: pointer;
+}
+
+.contenedor-seleccion .seleccion:hover{
+	background-color: #819FF7;
+	box-shadow: 0px 0px 5px #819FF7;
+}
+
+.seleccion .img-cargar13{
+	background: #fff;
+	width: 100%;
+	height: 80%;
+	border-radius: 15px;
+}
+
+.seleccion .palabra{
+	border: 1px solid #BDBDBD;
+	background: white;
+	border-radius: 15px;
+	margin-top: 0%;
+}
+/*Actividad 13 y 14*/
+
+/*Actividad 15*/
+.contenedor-seleccion #lista-ordenable{
+	border-radius: 5px;
+	width: 85%;
+	height: 80%;
+	margin-top: 15%;
+	margin-left: -3%;
+	padding-top: 2%;
+	list-style-type: none; 
+	text-align: center;
+}
+
+.contenedor-seleccion #lista-ordenable li{
+	padding: 5% 6%;
+	display: inline;
+	color: black;
+	font-size: 2.5em;
+	border-radius: 5px;
+	background-color: #81c8ce;
+	margin-left: 2%;
+}
+/*Actividad 15*/
+
+/*Actividad 16*/
+.contenedor-seleccion-uno .seleccion-uno,
+.contenedor-seleccion-uno .imagen-asociar{
+	background: #D8D8D8;
+	border: 1px solid #BDBDBD;
+	width: 39.5%;
+	height: 48%;
+	display: inline-block;
+	margin-left: 7%;
+	margin-top: 1%;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.seleccion-uno:hover,
+.imagen-asociar:hover{
+	background: #819FF7;
+}
+
+.seleccion-uno img,
+.imagen-asociar img{
+	border: 1px solid #BDBDBD;
+	background: #fff;
+	width: 80%;
+	height: 80%;
+	margin-top: 5%;
+	margin-left: 10%;
+}
+/*Actividad 16*/
+
+/* Actividad 17*/
+.cuerpo-actividad .resp-actividad-asociar-img-pal{
+	width: 62%;
+	height: 16%;
+	left: 32%;
+	top: 74%;
+}
+
+.resp-actividad-asociar-img-pal .resp-img-pal-interno{
+	width: 95%;
+	height: 84%;
+	background-image: url(../imagen/fondos/fondo_madera.jpg);
+	background-size:100% 100%;
+	margin-left: 2.1%;
+	margin-top: 0.8%;
+	border: inset 2px #DBA901;
+	border-radius: 15px;
+}
+
+
+.resp-actividad-asociar-img-pal .resp-img-pal-interno #superior{
+	width: 98%;
+	height: 50%;
+	position: absolute;
+	left: 1%;
+}
+
+.resp-actividad-asociar-img-pal .resp-img-pal-interno #inferior{
+	width: 98%;
+	height: 50%;
+	position: absolute;
+	left: 1%;
+	top: 50%;
+}
+
+#superior p, #inferior p{
+	color: #1C1C1C;
+	font-family:"home_school", cursive;
+	font-size: 70%;
+	letter-spacing: 0px;
+	display: inline-block;
+	top: -45%;
+	cursor: move;
+}
+
+.resp-actividad-asociar-img-pal .resp-img-pal-interno .der{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	left: 0%;
+	text-align: center;
+}
+
+.resp-actividad-asociar-img-pal .resp-img-pal-interno .izq{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	left: 0%;
+	text-align: center;
+}
+
+.imagen-asociar p{
+	border: 1px solid #BDBDBD;
+	background: white;
+	width: 37%;
+	height: 10%;
+	margin-left: 1.5%;
+	margin-top: 0%;
+	text-align: center;
+	font-size: 1.4em;
+	position: absolute;
+	border-radius: 5px;
+}
+
+.imagen-asociar img{
+	height: 60%;
+}
+/* Actividad 17*/
+
+/*******************************************/
+/*Actividad*/
+/*******************************************/
+
+
+/*******************************************/
+/*General*/
+/*******************************************/
+input{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#enviarRespuesta, #enviarRespuesta6, #enviarRespuesta7{
+	width: 12%;
+	height: 70%;
+	position: absolute;
+	margin-top: 1.5%;
+}
+
+#enviarRespuesta6{
+	margin-top: -30%;
+}
+
+#enviarRespuesta7{
+	margin-top: -1%;
+	margin-left: 5%;
+}
+
+#enviarRespuesta6{
+	width: 100%;
+	margin-left: -50%;
+}
+
+/********************************************/
+
+.cuerpo-actividad .resp-lng-sena{
+	width: 8%;
+	height: 10%;
+	position: absolute;
+	background: #BCF5A9;
+	left: 58%;
+	top: 65%;
+	padding-top: 1%;
+	text-align: center;
+	display: none;
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px black;
+	font-size: 2.5em;
+	letter-spacing: 20px;
+}
+
+.cuerpo-actividad .resp-lng-sena img{
+	width: 85%;
+	height: 100%;
+	margin-top: -6%;
+}
+
+.cuerpo-actividad .resp-lng-sena-doble{
+	width: 16%;
+	height: 10%;
+	position: absolute;
+	background: #BCF5A9;
+	left: 56%;
+	top: 65%;
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: center;
+	display: none;
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px black;
+	font-size: 2.5em;
+	letter-spacing: 20px;
+}
+
+.cuerpo-actividad .resp-lng-sena-doble img{
+	width: 40%;
+	height: 100%;
+	margin-top: -5%;
+}
+
+.cuerpo-actividad .resp-lng-sena-doble img{
+	width: 40%;
+	height: 100%;
+	margin-top: -4%;
+}
+
+
+/*******************************************/
+/*General*/
+/*******************************************/
+
+@media screen and (max-width: 1000px) {
+
+	body {
+		font-size: 75%;
+	}
+
+	.tv-plasma .tutorial{
+		margin-top: 0%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+	body {
+		font-size: 60%;
+	}
+}
+
+@media screen and (max-height: 600px) {
+
+	body {
+		font-size: 75%;
+	}
+}

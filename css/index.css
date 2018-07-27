@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'wonder-comic';
+	src: url('../fonts/SF Wonder Comic/SF Wonder Comic.ttf');
+	format('truetype');
+}
+
+html{
+	width:100%;
+	height: 100%;
+}
+
+body{
+	background-color: #04a9e7;
+	font-size: 100%;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+
+#cuerpoinicio{
+	width: 100%;
+	height: 100%;
+	background: URL(../imagen/fondos/MiEscuelita.png) no-repeat;
+	background-size: 100% 100%;
+	display: inline-block;
+	background-position: center;
+} 
+
+#cuerpoinicio #contenedor-form-inicio{
+	background-color: #CEE3F6;
+	width:320px;
+	height: auto;
+	margin: auto;
+	margin-top: 2%;
+	position: relative;
+	padding: 0% 0% 3% 0%;
+	text-align: center;
+	opacity: 0.9;
+	border-radius: 3%;
+	-moz-border-radius: 3%;
+	-webkit-border-radius: 3%;
+	box-shadow: 1% 1% 2% #55595c;
+	-moz-box-shadow: 1% 1% 2% #55595c;
+	-webkit-box-shadow: 1% 1% 2% #55595c;
+}
+
+#cuerpoinicio #contenedor-form-inicio .fontawesome-lock {
+	margin-top: 5%;
+	margin-right: 4%;
+}
+
+#cuerpoinicio #contenedor-form-inicio h3 {
+  background-color: #FAAC58;
+  border-radius: 5px 5px 0 0;
+  color: #FFFFFF;
+  font-family:"wonder-comic", cursive;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#cuerpoinicio #contenedor-form-inicio input {
+	border: none;
+	background: #FFFFFF;
+  	font-weight:700 ;
+	font-size: 14px;
+	text-align:center;
+	display: block;
+	height: 25px;
+	outline: none;
+	width: calc(75% - 24px) ;
+	margin: auto;
+	padding: 6px 12px 6px 12px;
+}
+
+#cuerpoinicio #contenedor-form-inicio .bar {
+	width: 75%;
+	height: 1px;
+	background: #F2F5A9 ;
+	margin-left: 12.5%;
+}
+
+#cuerpoinicio #contenedor-form-inicio .bar i {
+	width: 95%;
+	margin: auto;
+	height: 1px ;
+	display: block;
+	background: #d1d1d1;
+}
+
+#cuerpoinicio #contenedor-form-inicio input[type="text"] {
+	background: #F2F5A9;
+	border-radius: 7px 7px 0px 0px ;
+}
+
+#cuerpoinicio #contenedor-form-inicio input[type="password"] {
+	background: #F2F5A9;
+	border-radius: 0px 0px 7px 7px ;
+}
+
+#cuerpoinicio #contenedor-form-inicio button {
+	background:-moz-linear-gradient(#2E64FE 5%, #0080FF 95%);
+	background:-webkit-linear-gradient(#2E64FE 5%,#0080FF 95%);
+	background:linear-gradient(#2E64FE 5%,#0080FF 95%);
+	border:solid 1px #DEDEDE;
+	color:#FFFFFF;
+	width:100px;
+	height:35px;
+	margin-top:7%;
+	cursor: pointer;
+	border-radius:5px;
+}
+
+#cuerpoinicio #contenedor-form-inicio button:hover{
+	background: #6E6E6E; 
+	border: solid 1px #FF8000;
+}
+
+#cuerpoinicio #contenedor-form-inicio button .ico {
+	height: 15px;
+	width: 15px;
+	margin-top: -1px;
+	vertical-align: middle;
+}
+
+#cuerpoinicio #contenedor-form-inicio img {
+	margin-top:5%;
+}
+
+

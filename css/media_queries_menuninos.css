@@ -1,0 +1,51 @@
+@media screen and (max-width: 1024px){ 
+
+	/** slide-menu **/
+#slide-menu {
+	width: 100%;
+	height: 70%;
+	list-style: none;
+	float:left;
+}
+
+#slide-menu li{
+	margin-top:28%;
+	padding:3%;
+	float:left;
+}
+
+.max1{
+	visibility: hidden;
+	position: absolute;
+	top: 20%;	
+	width: 40%;
+	height: 30%;	
+	border:solid 0px ;
+	float:left;
+}
+a:hover .max1	{
+	visibility: visible;
+}
+
+.opacity { 
+      opacity: 1; <!-- Opacidad Inical --> 
+      -htm-transition-duration: 0.5s;    
+      -moz-transition-duration: 0.5s;    
+      -o-transition-duration: 0.5s;      
+      -webkit-transition-duration: 0.5s;
+} 
+.opacity:hover { 
+      opacity: 0.4; 
+      -htm-transition-duration: 0.5s;  
+      -moz-transition-duration: 0.5s;  
+      -o-transition-duration: 0.5s;  
+      -webkit-transition-duration: 0.5s; 
+}
+
+.max2{	
+	width: 45px;
+	height: 60px;
+}
+ 
+	
+} 
